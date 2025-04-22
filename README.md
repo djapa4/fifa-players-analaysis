@@ -22,11 +22,11 @@ Dataset sadrži sledeće kolone (neke od najvažnijih):
 
 ## 🧹 Čišćenje podataka
 
-- Popunjene `NaN` vrednosti u kolonama `wage_euro`, `value_euro` i 'release_clause_euro' sa prosečnim vrednostima.
-- Popunjene 'NaN' vrednosti u kolonama 'national_rating' i 'national_jersey_number' sa vrednosti 0.
-- Popunjene 'NaN' vrednosti u kolonama 'national_team' i 'national_team_position sa 'not-called'.
+- Popunjene `NaN` vrednosti u kolonama `wage_euro`, `value_euro` i `release_clause_euro` sa prosečnim vrednostima.
+- Popunjene `NaN` vrednosti u kolonama `national_rating` i `national_jersey_number` sa vrednosti 0.
+- Popunjene `NaN` vrednosti u kolonama `national_team` i `national_team_position` sa `not-called`.
 - Kreirane nove kolone kao npr. `is_top_player` (ako je value_euro > 40 miliona).
-- Droppovana kolona koju sam slucajno napravio (nationa_team_position).
+- Droppovana kolona koju sam slucajno napravio (`nationa_team_position`).
 
 ## 📈 Analize i vizualizacije
 
